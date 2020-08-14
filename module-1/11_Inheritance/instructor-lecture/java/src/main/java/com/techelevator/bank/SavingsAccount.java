@@ -1,0 +1,10 @@
+package com.techelevator.bank;
+
+public class SavingsAccount extends BankAccount {
+
+	public SavingsAccount(String accountNumber, double balance) {
+		super(accountNumber, balance);
+	
+	}
+
+}

@@ -1,0 +1,15 @@
+h1{
+    font-size: 50px;
+    color: #2926D9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border:2px solid Tomato;
+}
+
+img {
+    height: 150px;
+
+}
+
+body {
+    background-color: lightblue;
+  }

@@ -1,0 +1,14 @@
+// This does not work. This is an example only
+
+import axios from 'axios';
+ 
+const http = axios.create( {
+   baseURL: process.env.VUE_APP_NPS_API
+})
+ 
+export default {
+   getParks(state) {
+       return http.get(`/parks?stateCode=${state.toLowerCase()}&api_key=${process.env.VUE_APP_NPS_API_KEY}`);
+   }
+ 
+}
